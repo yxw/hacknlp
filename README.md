@@ -18,23 +18,24 @@ How To Use:
    (Note: Since the training cases are selected randomly, you may get different
     result for each running of the script.)
 
-will@will-mac:~/hacknlp$ python bayes_analyzer.py
-P number of features: 5331
-N number of features: 5331
-P number of train: 1000
-N number of train: 1000
-tran on 2000 instances, test on 8662 instances
-accuracy: 0.714961902563
-Most Informative Features
-                 culture = True                P : N      =      9.0 : 1.0
-                    lack = True                N : P      =      7.7 : 1.0
-                    ride = True                P : N      =      7.7 : 1.0
-                    rare = True                P : N      =      7.7 : 1.0
-                  deeply = True                P : N      =      7.7 : 1.0
-                    dull = True                N : P      =      7.7 : 1.0
-                     bad = True                N : P      =      7.6 : 1.0
-                   solid = True                P : N      =      7.0 : 1.0
-                  boring = True                N : P      =      7.0 : 1.0
-             beautifully = True                P : N      =      7.0 : 1.0
+    Example:
 
+    will@will-mac:~/hacknlp$ python bayes_analyzer.py
+    P number of features: 5331
+    N number of features: 5331
+    P number of train: 1000
+    N number of train: 1000
+    tran on 2000 instances, test on 8662 instances
+    accuracy: 0.714961902563
+    Most Informative Features
+                     culture = True                P : N      =      9.0 : 1.0
+                        lack = True                N : P      =      7.7 : 1.0
+                        ride = True                P : N      =      7.7 : 1.0
+                        rare = True                P : N      =      7.7 : 1.0
+                      deeply = True                P : N      =      7.7 : 1.0
+                        dull = True                N : P      =      7.7 : 1.0
+                         bad = True                N : P      =      7.6 : 1.0
+                       solid = True                P : N      =      7.0 : 1.0
+                      boring = True                N : P      =      7.0 : 1.0
+                 beautifully = True                P : N      =      7.0 : 1.0
 

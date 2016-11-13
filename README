@@ -1,24 +1,15 @@
 hacknlp
 =======
 
-My collection of tailored tools and toys playing with NLP.
+tools and toys created when playing with NLP.
 
 Dependencies:
-
-The following tools may be used in this project:
-hence you might need to install them manually before running this project.
-    nltk >= 2.01rc1
+    nltk
     nltk-data
-    svmlight (for SVM classifier)
-    numpy (not for now)
+    svmlight
 
-How To Use:
-
-Try Naive Bayes Classifer for sentiment anaylsis with the custermized lexicon
-   (Note: Since the training cases are selected randomly, you may get different
-    result for each running of the script.)
-
-Example:
+Current applications:
+1. Statistical sentiment analysis
 
 ➜  hacknlp git:(master) ✗ python bayes_analyzer.py
 P number of features: 5331
